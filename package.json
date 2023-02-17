@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+       "generate:icon-list": "node ./scripts/generateIconsList.js",
+    "spritegen": "npx svg-sprite -s --symbol-dest public --symbol-sprite sprite.svg icons/*.svg && npm run generate:icon-list",
+    "generate:component": "npx hygen component with-prompt"
   },
   "dependencies": {
     "next": "13.1.6",

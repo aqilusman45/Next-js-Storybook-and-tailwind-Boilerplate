@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Dummy from './Dummy';
+import Dummy from "./Dummy";
 
 export default {
-  title: 'Example/Dummy',
+  title: "Components/Dummy",
   component: Dummy,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
-    layout: 'fullscreen',
+    layout: "fullscreen",
   },
 };
 
